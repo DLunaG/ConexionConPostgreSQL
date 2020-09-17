@@ -15,7 +15,7 @@ public class MenuHelper {
 
     public void listarUsuarios() throws SQLException{
         List<Usuario> listaUsuarios = dao.cargarUsuarios();
-        System.out.println("Id - Nombre - Apellidos    -    Departamento  -  Ciudad");
+        System.out.println("Id - Nombre - Apellidos    -    Departamento  -  Ciudadd");
         System.out.println("=======================================================");
         for (Usuario u: listaUsuarios){
             System.out.println(u.getId() + " - " + u.getName() + " - " + u.getLastName() + " - " + u.getDepartment() + " - " + u.getCity());
